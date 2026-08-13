@@ -1,17 +1,17 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./component/frontend/Home";
+import About from "./component/frontend/About";
+import "./assets/css/style.scss"
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Router>
-          <Routes></Routes>
-        </Router>
+        <Routes>
+          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/about" element={<About></About>}></Route>
+        </Routes>
       </BrowserRouter>
     </>
   );
