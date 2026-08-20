@@ -2,6 +2,7 @@ $primary-color: #fe358d;
 $secondry-color : #ffb703;
 $text-color : #ffff;
 $dark-background : #222725;
+$light-gray : #f6f6f6;
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
@@ -31,6 +32,22 @@ ul{
     li{
         list-style: none;
         // padding: 5px;
+    }
+}
+
+.bg-light{
+    background-color: $light-gray;
+}
+
+.section-header{
+    span{
+        color: $primary-color;
+        font-size: 1.2em;
+        padding-bottom: 10px;
+        display: block;
+        text-transform: uppercase;
+        font-weight: 500;
+
     }
 }
 

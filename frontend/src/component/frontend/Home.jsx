@@ -51,6 +51,35 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <section className="section-3 p-5 bg-light">
+          <div className="container-fluid ">
+            <div className="section-header text-center">
+                <span>Our Services</span>
+                <h2>Our construction services</h2>
+                <p>We offer a diverse array of construction services, spanning residential, commercial, and industrial projects.
+                </p>
+            </div>
+          </div>
+          <div className="row">
+           <div className="col-md-3 col-lg-3">
+            <div className="items">
+             <div className="service-image">
+               <img src="" alt="" />
+             </div>
+             <div className="service-body">
+                <div className="service-title">
+                 <h3>Specialty Construction</h3>
+                </div>
+                <div className="service-content">
+                   <p>
+                    Speacially 
+                   </p>
+                </div>
+             </div>
+            </div>
+           </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>

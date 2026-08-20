@@ -69,7 +69,7 @@ const Footer = () => {
           <hr className="mt-4"></hr>
 
           <div className="text center pt-2 text-center">
-            Copyright @ 2024 UrbanEdge Construction. All Rights Reserved{" "}
+            Copyright @ 2026 Jai Sawariya Construction. All Rights Reserved
           </div>
         </div>
       </div>
