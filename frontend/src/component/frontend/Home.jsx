@@ -62,7 +62,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="row">
+          <div className="row mt-5">
             <div className="col-md-3 col-lg-3">
               <div className="items">
                 <div className="service-image">
@@ -88,6 +88,279 @@ const Home = () => {
                   </a>
                 </div>
               </div>
+            </div>
+
+            <div className="col-md-3 col-lg-3">
+              <div className="items">
+                <div className="service-image">
+                  <img
+                    src="../../images/construction1.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+                </div>
+                <div className="service-body">
+                  <div className="service-title">
+                    <h3>Specialty Construction</h3>
+                  </div>
+                  <div className="service-content">
+                    <p>
+                      Speacially construction is a niche sector within the
+                      construction industry that focuses on projects requiring
+                      specialized skills, materials and techniques
+                    </p>
+                  </div>
+                  <a href="" className="btn btn-primary">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 col-lg-3">
+              <div className="items">
+                <div className="service-image">
+                  <img
+                    src="../../images/construction1.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+                </div>
+                <div className="service-body">
+                  <div className="service-title">
+                    <h3>Specialty Construction</h3>
+                  </div>
+                  <div className="service-content">
+                    <p>
+                      Speacially construction is a niche sector within the
+                      construction industry that focuses on projects requiring
+                      specialized skills, materials and techniques
+                    </p>
+                  </div>
+                  <a href="" className="btn btn-primary">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 col-lg-3">
+              <div className="items">
+                <div className="service-image">
+                  <img
+                    src="../../images/construction1.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+                </div>
+                <div className="service-body">
+                  <div className="service-title">
+                    <h3>Specialty Construction</h3>
+                  </div>
+                  <div className="service-content">
+                    <p>
+                      Speacially construction is a niche sector within the
+                      construction industry that focuses on projects requiring
+                      specialized skills, materials and techniques
+                    </p>
+                  </div>
+                  <a href="" className="btn btn-primary">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section-4 py-5">
+          <div className="container py-5">
+              <div className="section-header text-center">
+              <span>Why Choose Us</span>
+              <h2>Discover our wide variety of projects</h2>
+              <p>
+                created in close partnership with our clients and collaborators. this approach merges industry expertise decades of exprience.<br/> innovation and flexibility to consistently deliver excellence
+              </p>
+            </div>
+
+            <div className="row pt-4">
+              <div className="col-md-4 col-lg-4">
+                 <div className="card shadow border-0 p-4">
+                  <div className="card-icon">
+                    <img
+                    src="../../images/icon-1.svg"
+                    alt=""
+                  />
+                  </div>
+                  <div className="card-title mt-3">
+                    <h3>Cutting-Edge Solution</h3> 
+                  </div>
+                  <p>Small actions create big impacts. it all begins and ends with each employee committing to safer work practices daily ensuring they return home safety.</p>
+                 </div>
+              </div>
+
+               <div className="col-md-4 col-lg-4">
+                 <div className="card shadow border-0 p-4">
+                  <div className="card-icon">
+                    <img
+                    src="../../images/icon-2.svg"
+                    alt=""
+                  />
+                  </div>
+                  <div className="card-title mt-3">
+                    <h3>Cutting-Edge Solution</h3> 
+                  </div>
+                  <p>Small actions create big impacts. it all begins and ends with each employee committing to safer work practices daily ensuring they return home safety.</p>
+                 </div>
+              </div>
+
+               <div className="col-md-4 col-lg-4">
+                 <div className="card shadow border-0 p-4">
+                  <div className="card-icon">
+                    <img
+                    src="../../images/icon-3.svg"
+                    alt=""
+                  />
+                  </div>
+                  <div className="card-title mt-3">
+                    <h3>Cutting-Edge Solution</h3> 
+                  </div>
+                  <p>Small actions create big impacts. it all begins and ends with each employee committing to safer work practices daily ensuring they return home safety.</p>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+         <section className="section-3 p-5 bg-light">
+          <div className="container-fluid ">
+            <div className="section-header text-center">
+              <span>Our Services</span>
+              <h2>Discover our diverse range of projects</h2>
+              <p>
+                We offer a diverse array of construction services, spanning
+                residential, commercial, and industrial projects.
+              </p>
+            </div>
+          </div>
+          <div className="row mt-5">
+            <div className="col-md-3 col-lg-3">
+              <div className="items">
+                <div className="service-image">
+                  <img
+                    src="../../images/construction2.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+                </div>
+                <div className="service-body">
+                  <div className="service-title">
+                    <h3>Kolkata Project</h3>
+                  </div>
+                  <div className="service-content">
+                    <p>
+                      Speacially construction is a niche sector within the
+                      construction industry that focuses on projects requiring
+                      specialized skills, materials and techniques
+                    </p>
+                  </div>
+                  <a href="" className="btn btn-primary">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 col-lg-3">
+              <div className="items">
+                <div className="service-image">
+                  <img
+                    src="../../images/construction2.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+                </div>
+                <div className="service-body">
+                  <div className="service-title">
+                    <h3>Kolkata Project</h3>
+                  </div>
+                  <div className="service-content">
+                    <p>
+                      Speacially construction is a niche sector within the
+                      construction industry that focuses on projects requiring
+                      specialized skills, materials and techniques
+                    </p>
+                  </div>
+                  <a href="" className="btn btn-primary">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 col-lg-3">
+              <div className="items">
+                <div className="service-image">
+                  <img
+                    src="../../images/construction2.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+                </div>
+                <div className="service-body">
+                  <div className="service-title">
+                    <h3>Kolkata Project</h3>
+                  </div>
+                  <div className="service-content">
+                    <p>
+                      Speacially construction is a niche sector within the
+                      construction industry that focuses on projects requiring
+                      specialized skills, materials and techniques
+                    </p>
+                  </div>
+                  <a href="" className="btn btn-primary">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 col-lg-3">
+              <div className="items">
+                <div className="service-image">
+                  <img
+                    src="../../images/construction2.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+                </div>
+                <div className="service-body">
+                  <div className="service-title">
+                    <h3>Kolkata Project</h3>
+                  </div>
+                  <div className="service-content">
+                    <p>
+                      Speacially construction is a niche sector within the
+                      construction industry that focuses on projects requiring
+                      specialized skills, materials and techniques
+                    </p>
+                  </div>
+                  <a href="" className="btn btn-primary">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="section-5 py-5">
+          <div className="container">
+             <div className="section-header text-center">
+              <span>Testimonials</span>
+              <h2>What people are saying about us</h2>
+              <p>
+               We offer a diverse array of construction services, spanning residental, commercial and industrial projects.
+              </p>
             </div>
           </div>
         </section>

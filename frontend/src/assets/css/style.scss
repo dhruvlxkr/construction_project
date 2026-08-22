@@ -19,7 +19,7 @@ h2{
 }
 
 h3{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 p{
@@ -127,12 +127,40 @@ header{
 }
 
 .section-3{
-    .item{
+    .items{
         position: relative;
         overflow: hidden;
-        .service-img{
+        color: $text-color;
+        margin-bottom: 20px;
+        &:hover{
+            .service-body{
+                transform: translate(0%);
+                .service-content {
+                opacity: 1;
+            }
+            }
+        }
+        .service-image{
             position: relative;
-        overflow: hidden;
+            overflow: hidden;
+          
+        img{
+            width: 100%;
+            border-radius: 40px;
+            aspect-ratio: 1/1.2;
+            object-fit: cover;
+        }
+
+          &::after{
+                content: "";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                border-radius: 40px;
+                background: linear-gradient(180deg,rgba(217,17,217,0)0%,rgba(217,17,217,0)13.02%,rgba(0,0,0,0.51),42.5%,rgba(0,0,0,0.63)70%,#000000 100%);
+            }
         }
         .service-body{
             position:absolute;
@@ -140,7 +168,21 @@ header{
             right: 30px;
             bottom: 30px;
             transform: translateY(80%);
+            transition: all 0.4s ease-in-out;
+
+            .service-content {
+                transition: all 0.4s ease-in-out;
+                opacity: 0;
+            }
         }
+    }
+}
+
+.section-4{
+
+    .card{
+        border-radius: 40px;
+            margin-bottom: 20px;
     }
 }
 
