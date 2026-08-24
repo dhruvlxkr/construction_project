@@ -25,8 +25,8 @@ const Home = () => {
                   of experience and dedication to quality
                 </p>
                 <div className="mt-5">
-                  <a className="btn btn-primary">Contact Now</a>
-                  <a class="btn btn-secondary ms-2">New Project</a>
+                  <a className="btn btn-primary large-btn">Contact Now</a>
+                  <a class="btn btn-secondary ms-2 large-btn">New Project</a>
                 </div>
               </div>
             </div>
@@ -589,14 +589,20 @@ const Home = () => {
           <div className="row">
              <div className="col-md-3 col-lg-3">
                  <div className="card shadow border-0">
-                  <img
-                    src="../../images/engineer-4925135_1280.jpg"
+                  <div className="card-img-top">
+                   <img
+                    src="../../images/construction3.jpg"
                     alt=""
                     className="w-100"
                   />
-                    <div className="card-body">
-                      
-                       
+
+                  </div>
+                 
+                    <div className="card-body p-4">
+                     <div>
+                      <a href="#" className="title">Dummy Blog Link</a>
+                     </div>
+                     <a href="#" className="btn btn-primary">Read More</a>
                     </div>
                  </div>
              </div>
