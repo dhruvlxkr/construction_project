@@ -186,6 +186,35 @@ header{
     }
 }
 
+.section-5{
+    .swiper{
+        padding: 25px 25px 50px 25px; 
+        .swiper-pagination-bullet-active{
+            background-color: $secondry-color;
+        }
+    }
+    .card{
+        border-radius: 24px;
+        .card-body{
+            .rating{
+                color: $secondry-color;
+            }
+            .content{
+                font-size: 1em;
+            }
+            .meta{
+                img{
+                    border-radius: 50%;
+                }
+            }
+            .name{
+                font-size: 1.3em ;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
 footer{
     background-color: $dark-background;
     color: white;
