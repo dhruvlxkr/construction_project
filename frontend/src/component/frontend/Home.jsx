@@ -5,6 +5,7 @@ import {Pagination} from 'swiper/modules';
 
 import Header from "../common/Header";
 import Footer from "../common/Footer";
+import About from "../common/About";
 import 'swiper/css/pagination';
 const Home = () => {
   return (
@@ -32,7 +33,10 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="section-2 p-5">
+
+        {/* About Us Section */}
+        <About/>
+        {/* <section className="section-2 p-5">
           <div className="container p-5">
             <div className="row">
               <div className="col-md-6">
@@ -54,7 +58,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="section-3 p-5 bg-light">
           <div className="container-fluid ">
             <div className="section-header text-center">
@@ -65,7 +69,7 @@ const Home = () => {
                 residential, commercial, and industrial projects.
               </p>
             </div>
-          </div>
+          
           <div className="row mt-5">
             <div className="col-md-3 col-lg-3">
               <div className="items">
@@ -87,7 +91,34 @@ const Home = () => {
                       specialized skills, materials and techniques
                     </p>
                   </div>
-                  <a href="" className="btn btn-primary">
+                  <a href="" className="btn btn-primary small-btn">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 col-lg-3">
+              <div className="items">
+                <div className="service-image">
+                  <img
+                    src="../../images/construction1.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+                </div>
+                <div className="service-body">
+                  <div className="service-title">
+                    <h3>Specialty Construction</h3>
+                  </div>
+                  <div className="service-content">
+                    <p>
+                      Speacially construction is a niche sector within the
+                      construction industry that focuses on projects requiring
+                      specialized skills, materials and techniques
+                    </p>
+                  </div>
+                  <a href="" className="btn btn-primary small-btn">
                     Read More
                   </a>
                 </div>
@@ -141,39 +172,13 @@ const Home = () => {
                       specialized skills, materials and techniques
                     </p>
                   </div>
-                  <a href="" className="btn btn-primary">
+                  <a href="" className="btn btn-primary small-btn">
                     Read More
                   </a>
                 </div>
               </div>
             </div>
-
-            <div className="col-md-3 col-lg-3">
-              <div className="items">
-                <div className="service-image">
-                  <img
-                    src="../../images/construction1.jpg"
-                    alt=""
-                    className="w-100"
-                  />
-                </div>
-                <div className="service-body">
-                  <div className="service-title">
-                    <h3>Specialty Construction</h3>
-                  </div>
-                  <div className="service-content">
-                    <p>
-                      Speacially construction is a niche sector within the
-                      construction industry that focuses on projects requiring
-                      specialized skills, materials and techniques
-                    </p>
-                  </div>
-                  <a href="" className="btn btn-primary">
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
+          </div>
           </div>
         </section>
 
@@ -246,7 +251,7 @@ const Home = () => {
                 residential, commercial, and industrial projects.
               </p>
             </div>
-          </div>
+         
           <div className="row mt-5">
             <div className="col-md-3 col-lg-3">
               <div className="items">
@@ -268,7 +273,7 @@ const Home = () => {
                       specialized skills, materials and techniques
                     </p>
                   </div>
-                  <a href="" className="btn btn-primary">
+                  <a href="" className="btn btn-primary small-btn">
                     Read More
                   </a>
                 </div>
@@ -295,7 +300,7 @@ const Home = () => {
                       specialized skills, materials and techniques
                     </p>
                   </div>
-                  <a href="" className="btn btn-primary">
+                  <a href="" className="btn btn-primary small-btn">
                     Read More
                   </a>
                 </div>
@@ -322,7 +327,7 @@ const Home = () => {
                       specialized skills, materials and techniques
                     </p>
                   </div>
-                  <a href="" className="btn btn-primary">
+                  <a href="" className="btn btn-primary small-btn">
                     Read More
                   </a>
                 </div>
@@ -349,13 +354,14 @@ const Home = () => {
                       specialized skills, materials and techniques
                     </p>
                   </div>
-                  <a href="" className="btn btn-primary">
+                  <a href="" className="btn btn-primary small-btn">
                     Read More
                   </a>
                 </div>
               </div>
             </div>
           </div>
+           </div>
         </section>
         <section className="section-5 py-5">
           <div className="container">
@@ -586,7 +592,7 @@ const Home = () => {
                 We Specialize in a wide range of construction services. including residential commercial and industrial projects.
               </p>
             </div>
-          <div className="row">
+          <div className="row pt-4">
              <div className="col-md-3 col-lg-3">
                  <div className="card shadow border-0">
                   <div className="card-img-top">
@@ -599,10 +605,67 @@ const Home = () => {
                   </div>
                  
                     <div className="card-body p-4">
-                     <div>
+                     <div className="mb-4">
                       <a href="#" className="title">Dummy Blog Link</a>
                      </div>
-                     <a href="#" className="btn btn-primary">Read More</a>
+                     <a href="#" className="btn btn-primary small-btn">Read More</a>
+                    </div>
+                 </div>
+             </div>
+             <div className="col-md-3 col-lg-3">
+                 <div className="card shadow border-0">
+                  <div className="card-img-top">
+                   <img
+                    src="../../images/construction3.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+
+                  </div>
+                 
+                    <div className="card-body p-4">
+                     <div className="mb-4">
+                      <a href="#" className="title">Dummy Blog Link</a>
+                     </div>
+                     <a href="#" className="btn btn-primary small-btn">Read More</a>
+                    </div>
+                 </div>
+             </div>
+             <div className="col-md-3 col-lg-3">
+                 <div className="card shadow border-0">
+                  <div className="card-img-top">
+                   <img
+                    src="../../images/construction3.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+
+                  </div>
+                 
+                    <div className="card-body p-4">
+                     <div className="mb-4">
+                      <a href="#" className="title">Dummy Blog Link</a>
+                     </div>
+                     <a href="#" className="btn btn-primary small-btn">Read More</a>
+                    </div>
+                 </div>
+             </div>
+             <div className="col-md-3 col-lg-3">
+                 <div className="card shadow border-0">
+                  <div className="card-img-top">
+                   <img
+                    src="../../images/construction3.jpg"
+                    alt=""
+                    className="w-100"
+                  />
+
+                  </div>
+                 
+                    <div className="card-body p-4">
+                     <div className="mb-4">
+                      <a href="#" className="title">Dummy Blog Link</a>
+                     </div>
+                     <a href="#" className="btn btn-primary small-btn">Read More</a>
                     </div>
                  </div>
              </div>

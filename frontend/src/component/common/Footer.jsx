@@ -5,9 +5,9 @@ const Footer = () => {
     <footer>
       <div className="container py-5">
         <div className="row">
-          <div className="col-md-3">
-            <h3>Jai Sawariya Construction</h3>
-            <div className="pe5">
+          <div className="col-md-3 ">
+            <h3 class="mb-3">Jai Sawariya Construction</h3>
+            <div className="pe-5">
               <p>
                 Our post-construction services gives you peace of mind knowing
                 that we are still here for you even after.
