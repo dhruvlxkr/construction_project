@@ -244,7 +244,7 @@ const Home = () => {
          <section className="section-3 p-5 bg-light">
           <div className="container-fluid ">
             <div className="section-header text-center">
-              <span>Our Services</span>
+              <span>Our Projects</span>
               <h2>Discover our diverse range of projects</h2>
               <p>
                 We offer a diverse array of construction services, spanning

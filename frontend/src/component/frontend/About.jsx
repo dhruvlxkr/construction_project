@@ -2,26 +2,13 @@ import React from "react";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
 import AboutUs from "../common/About";
+import Hero from "../common/Hero";
 const About = () => {
   return (
     <>
       <Header />
       <main>
-        <section className="section-7">
-          <div className="hero d-flex align-items-center">
-            <div className="container">
-              <div className="text-left">
-                <span>Quality Intergrity Value</span>
-                <h1>
-                 About Us
-                </h1>
-                <p>
-                  We excel at transforming visions into reality.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Hero preHeadig="Quality Intergrity Value" Heading="About Us" Content=" We excel at transforming visions into reality."></Hero>
            {/* About Us Section */}
         <AboutUs/>
        
